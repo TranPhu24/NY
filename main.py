@@ -117,7 +117,7 @@ def main():
     screen = pygame.display.set_mode((WIDTH, HEIGHT))  
     pygame.display.set_caption("NEW YEAR")
     pygame.display.set_icon(pygame.image.load(os.path.join((img_path), "vi.png")).convert()) 
-    bgm = pygame.mixer.music.load(os.path.join(audio_path, "nhac.mp3"))  
+    bgm = pygame.mixer.music.load(os.path.join(audio_path, "TetOnRoi.mp3"))  
     pygame.mixer.music.play(-1) 
     clock = pygame.time.Clock()
 
